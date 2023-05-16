@@ -6,7 +6,6 @@ def rescaleFrame(frame, scale=0.75):
     height = int(frame.shape[0] * scale)
 
     dimensions = (width,height)
-
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
 def changeRes(width,height):
