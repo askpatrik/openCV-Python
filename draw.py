@@ -29,3 +29,5 @@ cv.imshow('Line', blank)
 cv.putText(blank, "Rosebud...", (50,126), cv.FONT_HERSHEY_TRIPLEX, 1.0, (255,0,0), thickness=2)
 cv.imshow('Text', blank)
 cv.waitKey(0)
+
+
